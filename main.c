@@ -3,7 +3,7 @@
 //helped by Haley of the IAM department
 int main()
 {
-    int *whileLoop = malloc(sizeof(int));
+    int *whileLoop = (int *)malloc(sizeof(int));
     whileLoop[3] = 1;
     int floorOn = 0;
     int floorsMoved = 0;
